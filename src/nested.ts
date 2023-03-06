@@ -113,12 +113,7 @@ export function toCSV(questions: Question[]): string {
  * Answers. Each Question gets its own Answer, copying over the `id` as the `questionId`,
  * making the `text` an empty string, and using false for both `submitted` and `correct`.
  */
-interface Answer {
-    questionId: number;
-    text: string;
-    submitted: boolean;
-    correct: boolean;
-}
+
 export function makeAnswers(questions: Question[]): Answer[] {
     return questions.map((question: Question) => ({
         questionId: question.id,
