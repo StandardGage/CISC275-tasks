@@ -11,15 +11,6 @@ import { Counter } from "./components/Counter";
 function App(): JSX.Element {
     return (
         <div className="App">
-            <header className="App-header">
-                UD CISC275 -Gage Schuster with React Hooks and TypeScript
-            </header>
-            <hr></hr>
-            <h1>Hello There</h1>
-            <img
-                src="https://picsum.photos/id/238/200/300"
-                alt="pic didn't load"
-            ></img>
             <Counter></Counter>
             <hr />
             <RevealAnswer></RevealAnswer>
