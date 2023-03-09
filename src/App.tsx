@@ -20,7 +20,7 @@ function App(): JSX.Element {
             <TwoDice></TwoDice>
             <hr />
             <ChangeType></ChangeType>
-            <hr /> Hello World
+            <hr /> CISC275
             <CycleHoliday></CycleHoliday>
             <ul>
                 <li>list item</li>
