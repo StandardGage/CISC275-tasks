@@ -36,7 +36,7 @@ function App(): JSX.Element {
             <TwoDice></TwoDice>
             <hr />
             <ChangeType></ChangeType>
-            <hr /> CISC275
+            <hr />
             <CycleHoliday></CycleHoliday>
             <ul>
                 <li>list item</li>
